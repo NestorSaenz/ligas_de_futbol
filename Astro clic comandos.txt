@@ -1,4 +1,5 @@
 Astro clic comandos
 
 astro versionn --> para ver la versiónn
-astro dev init --> para crear un nuevo proyecto
+astro dev init --> para crear un nuevo proyecto, se instalan paquetes y la carpeta dags
+astro dev start --> configura y pone en marcha un entorno de desarrollo local para tu proyecto de ciencia de datos en la plataforma Astro, con esto podemos utilizar la UI de Airflow

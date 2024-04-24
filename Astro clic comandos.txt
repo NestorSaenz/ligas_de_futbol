@@ -1,0 +1,4 @@
+Astro clic comandos
+
+astro versionn --> para ver la versiónn
+astro dev init --> para crear un nuevo proyecto

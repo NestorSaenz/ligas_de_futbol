@@ -1,0 +1,1 @@
+copy into {{params.table}} from @{{params.stage }}/premier_positions.csv.gz FILE_FORMAT=(TYPE= CSV field_delimeter=',' skip_header=1) ON_ERROR = 'CONTINUE';

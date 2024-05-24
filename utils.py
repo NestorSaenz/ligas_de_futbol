@@ -31,6 +31,6 @@ def data_processing(df):
     df_portugal=get_data(df['URL'][5],df['LIGA'][5])
     df_holanda=get_data(df['URL'][6],df['LIGA'][6])
 
-    df_final=pd.concat([df_spain,df_premier,df_italy,df_francia,df_portugal,df_holanda],ignore_index=False)
+    df_final=pd.concat([df_spain,df_premier,df_italy,df_germany,df_francia,df_portugal,df_holanda],ignore_index=False)
 
     return df_final
